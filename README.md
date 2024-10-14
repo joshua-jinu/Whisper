@@ -154,7 +154,7 @@ Check out the website: [Whisper](https://WhisChat.vercel.app/)
 
 ## Creating a branch
 
-- create a branch using the following command(replace )
+- create a branch using the following command(replace branchName with your desired name for the branch)
 
 ```bash
 git checkout -b branchName
