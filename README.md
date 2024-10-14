@@ -152,6 +152,47 @@ Check out the website: [Whisper](https://WhisChat.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Creating a branch
+
+- create a branch using the following command(replace )
+
+```bash
+git checkout -b branchName
+```
+
+- to list all branches
+
+```bash
+git branch -a
+```
+
+- move to the branch
+
+```bash
+git checkout branchName
+```
+
+- to see the changes between the current branch and the main branch
+
+```bash
+git diff main
+```
+
+- to push changes to that particular branch
+
+```bash
+git push origin branchName
+```
+
+- After completing work on the branch, merge it with main (make sure you are on the main branch before merging):
+
+```bash
+git diff main
+git merge branchName
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## ✏️ Edit with Gitpod
 
 Click this button to run this project in Gitpod which comes with pre-configured environment.
